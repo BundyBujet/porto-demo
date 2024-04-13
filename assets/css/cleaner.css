@@ -1,0 +1,16 @@
+body {
+  padding: 0px !important;
+}
+
+.prod-desc-body > p > label {
+  font-weight: 700;
+  padding-right: 8px;
+}
+.modal-header,
+.modal-footer {
+  border-bottom: none !important;
+  border-top: none !important;
+}
+.footer-bottom .credit {
+  margin: 0px !important;
+}
