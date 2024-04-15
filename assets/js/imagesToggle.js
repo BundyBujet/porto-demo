@@ -150,13 +150,13 @@ const updateImage = (path) => {
 };
 
 const updateLabels = (i) => {
-  let facesText = `${imageDesc[i].faces}`;
-  let thicknessText = `${imageDesc[i].thickness}`;
-  let codeText = `${imageDesc[i].code}`;
-  let sizeText = `${imageDesc[i].size}`;
-  let finishText = `${imageDesc[i].finish}`;
-  let typologyText = `${imageDesc[i].typology}`;
-  let usageText = `${imageDesc[i].usage}`;
+  let facesText = `${imageDesc[6].faces}`;
+  let thicknessText = `${imageDesc[6].thickness}`;
+  let codeText = `${imageDesc[6].code}`;
+  let sizeText = `${imageDesc[6].size}`;
+  let finishText = `${imageDesc[6].finish}`;
+  let typologyText = `${imageDesc[6].typology}`;
+  let usageText = `${imageDesc[6].usage}`;
 
   facesLabel.innerHTML = facesText;
   thicknessLabel.innerHTML = thicknessText;
