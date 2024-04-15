@@ -1,7 +1,6 @@
 import DataTransfer from "./data.js";
 const images = [...document.querySelectorAll("#product_img")];
 const buttons = [...document.querySelectorAll("#image_toggle")];
-console.log(DataTransfer);
 
 // popup
 
