@@ -10,7 +10,7 @@
   height: 100vh;
   max-height: 800px;
   /* border-radius: 20px; */
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,7 +84,7 @@
 .arrow-btn i,
 .top-bar i {
   font-size: 30px;
-  color: #ffc107;
+  color: #ffd95a;
 }
 
 .right-arrow {
@@ -143,7 +143,10 @@
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  gap: 7px;
+  gap: 10px;
+}
+.card-desc p {
+  margin: 0px;
 }
 .card-desc p > label {
   font-weight: 600;
